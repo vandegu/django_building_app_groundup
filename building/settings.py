@@ -25,7 +25,7 @@ SECRET_KEY = '*#9puiqh$prk*3!h3*iaq!2861)cp47#n04#72c-9u*cdh*kh-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'unesco.apps.UnescoConfig',
+    'unesco.apps.UnescoConfig'
 ]
 
 MIDDLEWARE = [
